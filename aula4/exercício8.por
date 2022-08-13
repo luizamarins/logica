@@ -3,14 +3,10 @@ programa
 	
 	funcao inicio()
 	{
-		/*2) Escrever um algoritmo que gera e escreve os números ímpares entre 100 e 200.*/
+		/*Criar um algoritmo que leia em um vetor o nome, a quantidade e o valor de uma lista de três produtos.
+		 Ao final deverá calcular o subtotal de cada produto e no final exibir o total geral da compra. */
 
-		para (inteiro numero=100; numero<=200; numero++){
-
-			se (numero % 2 != 0)
-			escreva (numero, "\n")		
-
-		}
+		 
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -18,7 +14,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 229; 
+ * @POSICAO-CURSOR = 249; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

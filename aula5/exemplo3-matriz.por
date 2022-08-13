@@ -3,13 +3,22 @@ programa
 	
 	funcao inicio()
 	{
-		/*2) Escrever um algoritmo que gera e escreve os números ímpares entre 100 e 200.*/
+		cadeia matriz[2][2]
 
-		para (inteiro numero=100; numero<=200; numero++){
+		para(inteiro i=0; i<=1; i++){
+			para(inteiro j=0; j<=1; j++){
+				escreva("Digite um nome: ")
+				leia(matriz[i][j])
+			}
+		}
 
-			se (numero % 2 != 0)
-			escreva (numero, "\n")		
-
+		para(inteiro i=0; i<=1; i++){
+			para(inteiro j=0; j<=1; j++){
+				escreva(matriz[i][j], " ")	
+			}
+			
+		escreva("\n")
+		
 		}
 	}
 }
@@ -18,9 +27,9 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 229; 
+ * @POSICAO-CURSOR = 312; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
+ * @SIMBOLOS-INSPECIONADOS = {matriz, 6, 9, 6};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */
