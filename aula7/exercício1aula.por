@@ -1,46 +1,28 @@
 programa
 {
-
-	//Trabalho em Grupo #1
 	
-	funcao mapear()
+	funcao inicio()
 	{
-		inteiro lugar[10][12], ocupado, livre
-		livre = 0
-		ocupado = 1
+		//1) Escreva um programa que leia 10 números inteiros do teclado e armazena no vetor.
+		//Após isso, imprima os 10 inteiros em ordem inversa ao que foi digitado.
 
-		para(inteiro i=0; i<10; i++){
+		inteiro numero[10]
 
-			para(inteiro j=0; j<12; j++){
-				
-				lugar[i][j] = livre
-				escreva(lugar[i][j]," ")
-			}
-
-			escreva("\n")
+		para (inteiro i=0; i<10; i++){
+				escreva("Digite o ", i+1, "º número: ")
+				leia(numero[i])
+		}
+		para (inteiro i=9; i>=0; i--){
+			escreva(numero[i], "\n")
 		}
 	}
-
-	funcao reservar(){
-
-		inteiro x,y
-		escreva("Reserve um lugar: ")
-		leia(x)
-		leia(y)
-	}
-
-	funcao inicio(){
 }
-
-
-
-
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 195; 
+ * @POSICAO-CURSOR = 243; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

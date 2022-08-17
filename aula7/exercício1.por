@@ -1,23 +1,17 @@
 programa
 {
+	inclua biblioteca Util
 	
 	funcao inicio()
 	{
-		//Faça um algoritmo que leia as cinco vogais e exiba na tela na ordem inversa.
+		//Fazer um algoritmo para preencher um vetor com dez posições com números aleatórios e exibir na tela os valores.
 
-		caracter vogais[5]
+		inteiro numero[10]
 
-		//escreva(vogais[4], "\n",vogais[3], "\n", vogais[2], "\n", vogais[1], "\n", vogais[0])
-
-		para (inteiro i=0; i<=4; i++){
-			escreva("Digite a vogal: ")
-			leia(vogais[i])
+		para(inteiro i=0; i<10; i++){
+			numero[i] = sorteia(0, 1000)
+			escreva(numero[i], "\n")
 		}
-
-		para (inteiro i=4; i>=0; i--){
-			escreva(vogais[i], "\n")
-		}
-		
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -25,7 +19,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 339; 
+ * @POSICAO-CURSOR = 295; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
